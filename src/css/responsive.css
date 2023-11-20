@@ -1,0 +1,22 @@
+@media  (max-width: 800px) {
+
+   main{
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   .resultado{
+      display: flex;
+      flex-direction: column;
+      min-width: 100%;
+      align-items: flex-start;
+      justify-content: flex-start;
+      
+   }
+
+   /* .sumario{
+      display: flex;
+      flex-direction: column;
+      
+   } */
+}

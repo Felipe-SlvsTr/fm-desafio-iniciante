@@ -1,0 +1,167 @@
+html {
+   font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main {
+   display: flex;
+   min-height: 100vh;
+   align-items: center;
+   justify-content: center;
+}
+
+.resultado {
+   color: hsl(0, 0%, 100%);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   height: 470px;
+   width: 340px;
+   border-radius: 25px;
+   background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+   position: relative;
+}
+
+.resultado p {
+   font-size: 18px;
+   text-align: center;
+   width: 100%;
+   padding: 0 40px;
+   color: hsl(241, 100%, 89%);
+   margin-bottom: 60px;
+}
+
+.resultado .pontuacao {
+   display: flex;
+   flex-direction: column;
+   background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+   min-height: 175px;
+   width: 175px;
+   border-radius: 50%;
+   position: absolute;
+   margin-bottom: 100px;
+   justify-content: center;
+   align-items: center;
+}
+
+.resultado .pontuacao h1 {
+   font-weight: 800;
+   font-size: 60px;
+}
+
+.resultado h2 {
+   margin-top: 200px;
+   margin-bottom: 10px;
+   color: hsl(221, 100%, 96%);
+   font-size: 30px;
+}
+
+.resultado h3 {
+   margin-top: 38px;
+   color: hsl(241, 100%, 89%);
+   font-size: 22px;
+}
+
+.pontuacao span {
+   color: hsl(241, 100%, 89%);
+}
+
+.sumario {
+   margin-left: 30px;
+}
+
+.sumario h3 {
+   display: flex;
+   margin-left: 15px;
+   margin-bottom: 22px;
+   color: hsl(224, 30%, 27%);
+   font-size: 22px;
+
+}
+
+.sumario button {
+   display: flex;
+   font-weight: bold;
+   font-size: 15px;
+   color: hsl(221, 100%, 96%);
+   background-color: hsl(224, 30%, 27%);
+   width: 260px;
+   justify-content: center;
+   border-radius: 25px;
+   margin-left: 10px;
+   margin-top: 35px;
+   padding: 15px;
+}
+
+li {
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+   border-style: solid;
+   border: white;
+   gap: 25px;
+   padding: 15px;
+   margin: 15px;
+   border-radius: 10px;
+   border-width: 1px;
+}
+
+div.reaction {
+   color: hsl(0, 100%, 67%);
+   font-weight: bold;
+}
+
+li.reaction{
+   background-color:hsla(0, 100%, 67%, 0.05);
+}
+
+div.memory {
+   color: hsl(39, 100%, 56%);
+   font-weight: bold;
+}
+
+li.memory {
+   background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+div.verbal {
+   color: hsl(166, 100%, 37%);
+   font-weight: bold;
+}
+
+li.verbal{
+   background-color: hsla(166, 100%, 37%, 0.05);
+}
+
+div.visual {
+   color: hsl(234, 85%, 45%);
+   font-weight: bold;
+}
+
+li.visual{
+   background-color: hsla(234, 85%, 45%, 0.05);
+}
+
+.texto-icon {
+   display: flex;
+   gap: 5px;
+}
+
+.lista-sumario span {
+   margin-left: 25px;
+}
+
+span.limite{
+   color: #808080;
+}
+
+span.pontos{
+   font-weight: bold;
+   color: hsl(224, 30%, 27%);
+   margin-right: 5px;
+}
+
+img{
+   margin-right: 5px;
+}
+
